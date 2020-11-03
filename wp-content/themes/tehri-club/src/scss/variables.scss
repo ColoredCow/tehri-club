@@ -1,11 +1,14 @@
 $theme-primary: #aaa;
 $theme-secondary: #777;
 $theme-forestgreen: #32813E;
+$theme-thunderbird: #BA2E17;
+
 
 $theme-colors: (
     'theme-primary': $theme-primary,
     'theme-secondary': $theme-secondary,
     'theme-forestgreen': $theme-forestgreen,
+    'theme-thunderbird': $theme-thunderbird
 );
 
 $spacer: 10px;

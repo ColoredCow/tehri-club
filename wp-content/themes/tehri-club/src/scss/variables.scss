@@ -1,9 +1,14 @@
 $theme-primary: #aaa;
 $theme-secondary: #777;
+$theme-forestgreen: #32813E;
+$theme-thunderbird: #BA2E17;
+
 
 $theme-colors: (
     'theme-primary': $theme-primary,
     'theme-secondary': $theme-secondary,
+    'theme-forestgreen': $theme-forestgreen,
+    'theme-thunderbird': $theme-thunderbird
 );
 
 $spacer: 10px;
@@ -40,6 +45,7 @@ $sizes: (
     '25p' : 25%,
     '50p' : 50%,
     '75p' : 75%,
+    '80p' : 80%,
     '100p' : 100%,
     'screen-100': 100vh,
 );
@@ -68,4 +74,15 @@ $grid-breakpoints: (
     lg: 992px,
     xl: 1200px,
     hd: 1440px
+);
+
+$rounded: (
+    '0': 0,
+    '6': 6px,
+    '8': 8px,
+    '10': 10px,
+    '12': 12px,
+    '15': 15px,
+    '24': 24px,
+    'tablet': 500px,
 );

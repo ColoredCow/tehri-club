@@ -35,7 +35,19 @@ Text Domain: tehri-club
 		display: block;
 	}
 }
+#blogs-listing {
+	.blog-entry {
+		margin-bottom: 1em;
+		color: rgba(0 ,0 ,0 ,0.84);
+		transition: all 0.2s ease-in-out;
+		background-color: $white;
+		&:hover {
+			background-color: #DAE9C4;
+		}
+	}
+}
 
+@import "masonary";
 @import 'utilities';
 @import 'media/sm';
 @import 'media/md';

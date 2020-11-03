@@ -1,11 +1,11 @@
 {
-    "name": "projecttides/tides-website",
-    "description": "Tides website",
+    "name": "tehri_club",
+    "description": "Tehri club website",
     "keywords": [
         "WordPress",
         "Composer",
         "ColoredCow",
-        "tides"
+        "tehri_club"
     ],
     "type": "project",
     "repositories": [

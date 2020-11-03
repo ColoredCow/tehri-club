@@ -1,4 +1,4 @@
-# Tides website installation guide
+# Tehri Club website installation guide
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@
 
 2. On your local machine, Run `composer install` in the root directory using the CLI.
 
-3. Run `npm install` on `/wp-content/themes/tides/` directory. We are using `tides` as default theme.
+3. Run `npm install` on `/wp-content/themes/tehri_club/` directory. We are using `tehri_club` as default theme.
 
 4. Run `grunt` to check if the grunt installation worked. You should see a style.css and main.js inside your theme. 
 
@@ -52,7 +52,7 @@
 
 6. Configure the database.
 
-   * Create a new **MySql** database for tides website.
+   * Create a new **MySql** database for tehri_club website.
 
    * Update configurations for newly created database in `wp-config.php`.
       ```

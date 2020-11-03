@@ -35,19 +35,14 @@ Text Domain: tehri-club
 		display: block;
 	}
 }
-#blogs-listing{
-	.blog-entry{
-		width:100%;
+#blogs-listing {
+	.blog-entry {
 		margin-bottom: 1em;
 		color: rgba(0 ,0 ,0 ,0.84);
-  		transition: all 0.2s ease-in-out;
-	    background-color: $white;
-		border-radius: 6px;
-  		&:hover{
+		transition: all 0.2s ease-in-out;
+		background-color: $white;
+		&:hover {
 			background-color: #DAE9C4;
-		}
-		img {
-			border-radius: 6px;
 		}
 	}
 }
